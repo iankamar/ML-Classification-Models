@@ -1,4 +1,4 @@
-# Machine Learning Classification Models
+# Wine Classification Model
 
 This repository contains implementations of various classification algorithms demonstrating model selection, hyperparameter tuning, and performance evaluation techniques.
 
