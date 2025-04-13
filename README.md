@@ -17,7 +17,7 @@ This repository contains implementations of various classification algorithms de
 - Advanced hyperparameter tuning with cross-validation
 - Detailed performance visualization and interpretation
 - Complete confusion matrix and ROC analysis
-- Built with: <img src="https://img.icons8.com/color/24/000000/python.png" width="16"/> Python, <img src="https://img.icons8.com/color/24/000000/scikit-learn.png" width="16"/> scikit-learn, <img src="https://img.icons8.com/color/24/000000/pandas.png" width="16"/> pandas, <img src="https://img.icons8.com/color/24/000000/numpy.png" width="16"/> numpy
+- Built with: Python, scikit-learn, pandas, numpy
 
 ### ⚙️ Error Classification with XGBoost  
 **File**: `error_classification_xgboost.ipynb`  
@@ -32,7 +32,7 @@ This repository contains implementations of various classification algorithms de
 - Advanced hyperparameter tuning with cross-validation
 - Detailed performance visualization and interpretation
 - Complete confusion matrix and ROC analysis
-- Built with: <img src="https://img.icons8.com/color/24/000000/python.png" width="16"/> Python, <img src="https://img.icons8.com/color/24/000000/xgboost.png" width="16"/> XGBoost, <img src="https://img.icons8.com/color/24/000000/matplotlib.png" width="16"/> matplotlib
+- Built with: Python, XGBoost, matplotlib
 
 ## Dataset Loading
 ```python
@@ -70,8 +70,7 @@ pip install -r requirements.txt
 code .
 
 # Run scripts
-python wine_classification.py
-python error_classification.py
-
+python wine_classification.py  # Uses wine dataset from: https://archive.ics.uci.edu/dataset/109/wine
+python error_classification.py  # Uses predictive maintenance dataset from: https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification
 ## License
 Copyright © 2024 Ian Kamar
